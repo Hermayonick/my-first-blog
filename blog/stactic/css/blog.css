@@ -1,0 +1,61 @@
+/* Tipografía general */
+body {
+    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #fdfdfd;
+}
+
+/* Cabecera */
+.page-header {
+    background-color: #C25100;
+    padding: 30px 40px;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.page-header h1 {
+    margin: 0;
+    font-size: 42pt;
+}
+
+.page-header h1 a,
+.page-header h1 a:visited,
+.page-header h1 a:hover,
+.page-header h1 a:active {
+    color: #ffffff;
+    font-family: 'Lobster', cursive;
+    text-decoration: none;
+    font-style: italic;
+    font-weight: bold;
+}
+
+/* Contenido principal */
+.content {
+    padding: 0 40px;
+}
+
+/* Post individual */
+.post {
+    background: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    margin-bottom: 40px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+/* Título del post */
+.post h2 {
+    margin-top: 0;
+    font-family: 'Lobster', cursive;
+    font-size: 28pt;
+    color: #C25100;
+}
+
+/* Fecha del post */
+.date {
+    color: #888;
+    font-style: italic;
+    margin-bottom: 10px;
+}
